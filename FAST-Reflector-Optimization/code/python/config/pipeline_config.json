@@ -1,0 +1,43 @@
+{
+  "geometry": {
+    "parabola_c3": 1.29916e-06,
+    "parabola_c2": 0.001551445,
+    "parabola_c1": 0.005647238,
+    "sphere_radius": 300.0,
+    "h0_scale": 0.466,
+    "h0_radius_ref": 300.4,
+    "h0_bias": 0.3786,
+    "receiver_half_window": 0.5
+  },
+  "sampling": {
+    "work_x_max": 150.0,
+    "base_x_max": 250.0,
+    "work_step": 0.0002,
+    "base_step": 0.0002,
+    "benchmark_points": 60000
+  },
+  "ga": {
+    "population_size": 240,
+    "iterations": 320,
+    "mutation_rate": 0.2,
+    "crossover_rate": 0.35,
+    "lower_bound": -0.6,
+    "upper_bound": 0.6,
+    "random_seed": 2026
+  },
+  "q2": {
+    "angle_count": 100,
+    "working_radius": 150.0,
+    "azimuth_deg": 36.7595,
+    "elevation_deg": 78.169
+  },
+  "visualization": {
+    "cover_frames": 120,
+    "sweep_frames": 90,
+    "morph_frames": 84,
+    "ray_frames": 78
+  },
+  "io": {
+    "attachment_csv": "results/data/sample_attachment1.csv"
+  }
+}

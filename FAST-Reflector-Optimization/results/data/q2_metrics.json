@@ -1,0 +1,28 @@
+{
+  "radius_estimate": 299.95656593563655,
+  "best_rmse": 0.17230123982536427,
+  "delta_peak": 0.4004710926177477,
+  "final_equation": [
+    9.661169125567498e-10,
+    8.189541741162292e-07,
+    0.0016006379108623068,
+    0.006090874105212402,
+    -300.225066406102
+  ],
+  "working_node_count": 20,
+  "ga_config": {
+    "population_size": 240,
+    "iterations": 320,
+    "mutation_rate": 0.2,
+    "crossover_rate": 0.35,
+    "lower_bound": -0.6,
+    "upper_bound": 0.6,
+    "random_seed": 2026
+  },
+  "q2_config": {
+    "angle_count": 100,
+    "working_radius": 150.0,
+    "azimuth_deg": 36.7595,
+    "elevation_deg": 78.169
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-04-01T10:25:29",
+  "data_source": "real_data:sample_attachment1.csv",
+  "geometry": {
+    "parabola_c3": 1.29916e-06,
+    "parabola_c2": 0.001551445,
+    "parabola_c1": 0.005647238,
+    "sphere_radius": 300.0,
+    "h0_scale": 0.466,
+    "h0_radius_ref": 300.4,
+    "h0_bias": 0.3786,
+    "receiver_half_window": 0.5
+  },
+  "sampling": {
+    "work_x_max": 150.0,
+    "base_x_max": 250.0,
+    "work_step": 0.0002,
+    "base_step": 0.0002,
+    "benchmark_points": 60000
+  },
+  "acceptance_ratio": {
+    "working_parabola": 0.12209333333333333,
+    "baseline_sphere": 0.054508,
+    "absolute_gain": 0.06758533333333333,
+    "relative_gain_percent": 123.99158533303978
+  },
+  "benchmark": {
+    "config": {
+      "work_x_max": 150.0,
+      "base_x_max": 250.0,
+      "work_step": 0.0002,
+      "base_step": 0.0002,
+      "benchmark_points": 60000
+    },
+    "working": {
+      "loop_seconds": 0.049701800002367236,
+      "vectorized_seconds": 0.001859399999375455,
+      "speedup": 26.730020446951347
+    },
+    "baseline": {
+      "loop_seconds": 0.04993560000002617,
+      "vectorized_seconds": 0.0017070000030798838,
+      "speedup": 29.2534270122607
+    }
+  },
+  "artifacts": {
+    "dashboard_png": "outputs/images/dashboard.png",
+    "github_cover_gif": "outputs/gifs/github_cover.gif",
+    "process_sweep_gif": "outputs/gifs/process_sweep.gif"
+  }
+}

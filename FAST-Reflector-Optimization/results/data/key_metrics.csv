@@ -1,0 +1,7 @@
+﻿metric,value
+working_ratio,0.12209333333333333
+baseline_ratio,0.054508
+absolute_gain,0.06758533333333333
+relative_gain_percent,123.9915853330398
+q2_best_rmse,0.17230123982536427
+q2_peak_stroke_m,0.4004710926177477

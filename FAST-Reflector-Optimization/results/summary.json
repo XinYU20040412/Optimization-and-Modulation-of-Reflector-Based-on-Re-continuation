@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-04-01T13:40:53",
+  "config_file": "code/python/config/pipeline_config.json",
+  "data_source": "real_data:results/data/sample_attachment1.csv",
+  "geometry": {
+    "parabola_c3": 1.29916e-06,
+    "parabola_c2": 0.001551445,
+    "parabola_c1": 0.005647238,
+    "sphere_radius": 300.0,
+    "h0_scale": 0.466,
+    "h0_radius_ref": 300.4,
+    "h0_bias": 0.3786,
+    "receiver_half_window": 0.5
+  },
+  "sampling": {
+    "work_x_max": 150.0,
+    "base_x_max": 250.0,
+    "work_step": 0.0002,
+    "base_step": 0.0002,
+    "benchmark_points": 60000
+  },
+  "q2": {
+    "radius_estimate": 299.95656593563655,
+    "best_rmse": 0.17230123982536427,
+    "peak_stroke_m": 0.4004710926177477,
+    "final_equation": [
+      9.661169125567498e-10,
+      8.189541741162292e-07,
+      0.0016006379108623068,
+      0.006090874105212402,
+      -300.225066406102
+    ],
+    "ga_config": {
+      "population_size": 240,
+      "iterations": 320,
+      "mutation_rate": 0.2,
+      "crossover_rate": 0.35,
+      "lower_bound": -0.6,
+      "upper_bound": 0.6,
+      "random_seed": 2026
+    },
+    "q2_config": {
+      "angle_count": 100,
+      "working_radius": 150.0,
+      "azimuth_deg": 36.7595,
+      "elevation_deg": 78.169
+    }
+  },
+  "acceptance_ratio": {
+    "working_parabola": 0.12209333333333333,
+    "baseline_sphere": 0.054508,
+    "absolute_gain": 0.06758533333333333,
+    "relative_gain_percent": 123.99158533303978
+  },
+  "benchmark": {
+    "config": {
+      "work_x_max": 150.0,
+      "base_x_max": 250.0,
+      "work_step": 0.0002,
+      "base_step": 0.0002,
+      "benchmark_points": 60000
+    },
+    "working": {
+      "loop_seconds": 0.04627569999865955,
+      "vectorized_seconds": 0.0014207999993232079,
+      "speedup": 32.57017174880545
+    },
+    "baseline": {
+      "loop_seconds": 0.04648830000223825,
+      "vectorized_seconds": 0.0013596999997389503,
+      "speedup": 34.19011547485737
+    }
+  },
+  "artifacts": {
+    "dashboard_png": "results/images/dashboard.png",
+    "acceptance_bar_png": "results/images/acceptance_comparison.png",
+    "surface_morph_gif": "results/animations/surface_morph.gif",
+    "ray_path_gif": "results/animations/ray_path_2d.gif",
+    "optimization_process_gif": "results/animations/optimization_process.gif",
+    "h0_sweep_gif": "results/animations/h0_parameter_sweep.gif",
+    "q2_data": {
+      "adjusted_nodes_csv": "results/data/q2_adjusted_nodes.csv",
+      "flex_lengths_csv": "results/data/q2_flex_lengths.csv",
+      "peak_coordinate_csv": "results/data/q2_peak_coordinate.csv",
+      "ga_profile_csv": "results/data/q2_ga_profile.csv",
+      "q2_metrics_json": "results/data/q2_metrics.json",
+      "q2_convergence_png": "results/images/q2_ga_convergence.png"
+    },
+    "key_metrics_csv": "results/data/key_metrics.csv"
+  }
+}
